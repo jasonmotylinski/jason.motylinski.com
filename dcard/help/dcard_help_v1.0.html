@@ -1,0 +1,237 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <title>Dcard Personal HTML Template - Help V.1</title>
+  <!-- Framework CSS -->
+  <link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+  <link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+  <!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+  <link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+  <link rel="stylesheet" href="assets/css_js/shi_default.min.css" type="text/css" media="screen">
+  <style type="text/css" media="screen">
+    p, table, hr, .box { margin-bottom:25px; }
+    .box p { margin-bottom:10px; }
+    .mycode{
+      margin: 20px auto;
+    }
+  </style>
+</head>
+
+
+<body>
+  <div class="container">
+
+    <h3 class="center alt">Dcard Personal HTML Template - Documentation by &ldquo;Yobio&rdquo; v1.0</h3>
+
+    <hr>
+
+    <h1 class="center">Dcard Personal HTML Template</h1>
+    <div class="borderTop">
+      <div class="span-6 colborder info prepend-1">
+        <p class="prepend-top">
+          <strong>
+            Created: 05/Mar/2014<br>
+            By: Yobi Bina Setiawan<br>
+            Email: <a href="mailto:yobi.studio@gmail.com">yobi.studio@gmail.com</a>
+          </strong>
+        </p>
+      </div><!-- end div .span-6 -->		
+
+      <div class="span-12 last">
+        <p class="prepend-top append-0">Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="https://wrapbootstrap.com/user/yobio">here</a>. Thanks so much!</p>
+      </div>
+    </div><!-- end div .borderTop -->
+
+    <hr>
+
+    <h2 id="toc" class="alt">Table of Contents</h2>
+    <ol class="alpha">
+      <li><a href="#htmlStructure">HTML Structure</a></li>
+      <li><a href="#cssFiles">CSS Files and Structure</a></li>
+      <li><a href="#javascript">JavaScript</a></li>
+      <li><a href="#credits">Sources and Credits</a></li>
+    </ol>
+
+    <hr>
+
+    <h3 id="htmlStructure"><strong>A) HTML Structure</strong> - <a href="#toc">top</a></h3>
+    <p>This theme is a responsive layout and using <a href="http://getbootstrap.com/">Bootstrap v3</a> as css frameworks.</p>
+    <p>Here is the general structure of HTML page.</p>
+    <div class="mycode">
+      <div class="snippet-container"><div class="sh_default snippet-wrap"><div class="snippet-menu sh_sourceCode"><a class="snippet-window sh_url" href="#">pop-up</a><a class="snippet-text sh_url" href="#">text</a></div><pre class="shi_pre sh_html snippet-formatted sh_sourceCode"><ol class="snippet-num"><li><span class="sh_preproc">&lt;!DOCTYPE</span> <span class="sh_type">html</span><span class="sh_preproc">&gt;</span></li><li><span class="sh_keyword">&lt;html</span> <span class="sh_type">lang</span><span class="sh_symbol">=</span><span class="sh_string">"en"</span><span class="sh_keyword">&gt;</span></li><li>  <span class="sh_keyword">&lt;head&gt;</span></li><li>     ... </li><li>  <span class="sh_keyword">&lt;/head&gt;</span></li><li>  <span class="sh_keyword">&lt;body&gt;</span></li><li>    <span class="sh_comment">&lt;!-- =========</span></li><li><span class="sh_comment">    Start Wrapper Page</span></li><li><span class="sh_comment">    ===================================--&gt;</span></li><li>    <span class="sh_keyword">&lt;div</span> <span class="sh_type">id</span><span class="sh_symbol">=</span><span class="sh_string">"wrapper"</span><span class="sh_keyword">&gt;</span></li><li>      <span class="sh_keyword">&lt;div</span> <span class="sh_type">class</span><span class="sh_symbol">=</span><span class="sh_string">"container"</span> <span class="sh_keyword">&gt;</span></li><li>        <span class="sh_keyword">&lt;div</span> <span class="sh_type">class</span><span class="sh_symbol">=</span><span class="sh_string">"row"</span><span class="sh_keyword">&gt;</span></li><li>          <span class="sh_keyword">&lt;div</span> <span class="sh_type">class</span><span class="sh_symbol">=</span><span class="sh_string">"col-lg-10 col-lg-offset-1"</span><span class="sh_keyword">&gt;</span></li><li></li><li>            <span class="sh_comment">&lt;!-- =========</span></li><li><span class="sh_comment">            Start portrait section</span></li><li><span class="sh_comment">            ===================================--&gt;</span></li><li>            <span class="sh_keyword">&lt;header</span> <span class="sh_type">class</span><span class="sh_symbol">=</span><span class="sh_string">"portrait"</span><span class="sh_keyword">&gt;</span>]</li><li>              ...</li><li>            <span class="sh_keyword">&lt;/header&gt;</span></li><li>            <span class="sh_comment">&lt;!-- =========</span></li><li><span class="sh_comment">            End portrait section</span></li><li><span class="sh_comment">            ===================================--&gt;</span></li><li></li><li></li><li>            <span class="sh_comment">&lt;!-- =========</span></li><li><span class="sh_comment">            Start Content section</span></li><li><span class="sh_comment">            ===================================--&gt;</span></li><li>            <span class="sh_keyword">&lt;section</span> <span class="sh_type">class</span><span class="sh_symbol">=</span><span class="sh_string">"content"</span> <span class="sh_type">id</span><span class="sh_symbol">=</span><span class="sh_string">"main-content"</span><span class="sh_keyword">&gt;</span></li><li></li><li>              <span class="sh_comment">&lt;!-- =========</span></li><li><span class="sh_comment">              Start navigation section</span></li><li><span class="sh_comment">              ===================================--&gt;</span></li><li>              <span class="sh_keyword">&lt;nav</span> <span class="sh_type">id</span><span class="sh_symbol">=</span><span class="sh_type">'navigation'</span><span class="sh_keyword">&gt;</span></li><li>                ...</li><li>              <span class="sh_keyword">&lt;/nav&gt;</span></li><li>              <span class="sh_comment">&lt;!-- =========</span></li><li><span class="sh_comment">              End navigation section</span></li><li><span class="sh_comment">              ===================================--&gt;</span></li><li></li><li></li><li>              <span class="sh_comment">&lt;!-- =========</span></li><li><span class="sh_comment">              Start tab content section</span></li><li><span class="sh_comment">              ===================================--&gt;</span></li><li>              <span class="sh_keyword">&lt;div</span> <span class="sh_type">class</span><span class="sh_symbol">=</span><span class="sh_string">"tab-content"</span><span class="sh_keyword">&gt;</span></li><li>                ...</li><li>              <span class="sh_keyword">&lt;/div&gt;</span></li><li>              <span class="sh_comment">&lt;!-- =========</span></li><li><span class="sh_comment">              End tab content section</span></li><li><span class="sh_comment">              ===================================--&gt;</span></li><li>              </li><li>              </li><li>            <span class="sh_keyword">&lt;/section&gt;</span></li><li>            <span class="sh_comment">&lt;!-- =========</span></li><li><span class="sh_comment">            End Content section</span></li><li><span class="sh_comment">            ===================================--&gt;</span></li><li></li><li></li><li>            <span class="sh_comment">&lt;!-- =========</span></li><li><span class="sh_comment">            Start Footer section</span></li><li><span class="sh_comment">            ===================================--&gt;</span></li><li>            <span class="sh_keyword">&lt;footer</span> <span class="sh_type">class</span><span class="sh_symbol">=</span><span class="sh_string">"footer"</span><span class="sh_keyword">&gt;</span></li><li>              ...</li><li>            <span class="sh_keyword">&lt;/footer&gt;</span></li><li>            <span class="sh_comment">&lt;!-- =========</span></li><li><span class="sh_comment">            End Footer section</span></li><li><span class="sh_comment">            ===================================--&gt;</span></li><li></li><li>          <span class="sh_keyword">&lt;/div&gt;</span></li><li>        <span class="sh_keyword">&lt;/div&gt;</span></li><li>      <span class="sh_keyword">&lt;/div&gt;</span></li><li>    <span class="sh_keyword">&lt;/div&gt;</span></li><li>    <span class="sh_comment">&lt;!-- =========</span></li><li><span class="sh_comment">    End Wrapper Page</span></li><li><span class="sh_comment">    ===================================--&gt;</span></li><li>    </li><li>  <span class="sh_keyword">&lt;/body&gt;</span></li><li><span class="sh_keyword">&lt;/html&gt;</span></li></ol></pre><pre class="snippet-textonly sh_sourceCode" style="display:none;" tabindex="0" contenteditable="">&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+  &lt;head&gt;
+     ... 
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;!-- =========
+    Start Wrapper Page
+    ===================================--&gt;
+    &lt;div id="wrapper"&gt;
+      &lt;div class="container" &gt;
+        &lt;div class="row"&gt;
+          &lt;div class="col-lg-10 col-lg-offset-1"&gt;
+
+            &lt;!-- =========
+            Start portrait section
+            ===================================--&gt;
+            &lt;header class="portrait"&gt;]
+              ...
+            &lt;/header&gt;
+            &lt;!-- =========
+            End portrait section
+            ===================================--&gt;
+
+
+            &lt;!-- =========
+            Start Content section
+            ===================================--&gt;
+            &lt;section class="content" id="main-content"&gt;
+
+              &lt;!-- =========
+              Start navigation section
+              ===================================--&gt;
+              &lt;nav id='navigation'&gt;
+                ...
+              &lt;/nav&gt;
+              &lt;!-- =========
+              End navigation section
+              ===================================--&gt;
+
+
+              &lt;!-- =========
+              Start tab content section
+              ===================================--&gt;
+              &lt;div class="tab-content"&gt;
+                ...
+              &lt;/div&gt;
+              &lt;!-- =========
+              End tab content section
+              ===================================--&gt;
+              
+              
+            &lt;/section&gt;
+            &lt;!-- =========
+            End Content section
+            ===================================--&gt;
+
+
+            &lt;!-- =========
+            Start Footer section
+            ===================================--&gt;
+            &lt;footer class="footer"&gt;
+              ...
+            &lt;/footer&gt;
+            &lt;!-- =========
+            End Footer section
+            ===================================--&gt;
+
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!-- =========
+    End Wrapper Page
+    ===================================--&gt;
+    
+  &lt;/body&gt;
+&lt;/html&gt;</pre></div></div>
+    </div>
+
+
+    <h3 id="cssFiles"><strong>B) CSS Files and Structure</strong> - <a href="#toc">top</a></h3>
+    <p>This theme imports seven CSS files.</p>
+    <ol>
+      <li>bootstrap.css</li>
+      <li>font-awesome.min.css</li>
+      <li>font-tello.css</li>
+      <li>magnific-popup.css</li>
+      <li>animation.css</li>
+      <li>style.css</li>
+      <li>yourcss.css</li>
+     </ol>
+   
+    <p>To add your own style you can modify the yourcss.css</p>
+    <pre>	/* start wrapper page section */
+
+	some code
+
+	/* === Header Section  === */
+	
+	some code
+	
+	/* === Start  wrapper for navigation section ===*/
+	
+	some code
+
+        /* === Global CLass ===*/
+  
+        some code
+	
+	/* === Footer === */
+	
+	some code
+	
+	etc, etc. 
+    </pre>
+
+    <p>If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited.</p> 
+    <hr>
+
+    <h3 id="javascript"><strong>C) JavaScript</strong> - <a href="#toc">top</a></h3>
+
+    <p>This theme imports eight Javascript files.</p>
+    
+    <ol>
+      <li>jQuery.js</li>
+      <li>pace.js</li>
+      <li>bootstrap.js</li>
+      <li>jquery.autofix_anything.js</li>
+      <li>jquery.mixitup.min.js</li>
+      <li>gmap3.min.js</li>
+      <li>jquery.magnific-popup.min.js</li>
+      <li>app.js</li>
+    </ol>
+
+    <ol>
+      <li>jQuery is a Javascript library that greatly reduces the amount of code that you must write</li>
+      <li>Pace is a Javascript and CSS library to automatically add beautiful progress and activity indicators for page loads and ajax navigation</li>
+      <li>Both <strong>bootstrap.js</strong> and <strong>bootstrap.min.js</strong> contain all plugins in a single file. Include only one.</li>
+      <li>jquery.autofix_anything is a plugin that will let you automatically fix position of any container on your website with one JS call</li>
+      <li>MixItUp is a jQuery filter and sort plugin</li>
+      <li>gmap3 is a JQuery plugin to create google maps with advanced features </li>
+      <li>magnific-popup is Light and open source responsive lightbox plugin with focus on performance, for jQuery</li>
+      <li>app.js is all configuration code in this template</li>
+    </ol>
+
+    <hr>
+
+    <h3 id="credits"><strong>D) Sources and Credits</strong> - <a href="#toc">top</a></h3>
+
+    <p>I've used the following images, icons or other files as listed.
+
+    <ul>
+      <li>Icons by <a href="http://fortawesome.github.io/Font-Awesome/"> Font Awesome</a> and <a href="http://fontello.com/">http://fontello.com/</a></li>
+      <li>Images from <a href="http://photodune.net/">http://photodune.net/</a> and <a href="http://pixabay.com/">http://pixabay.com/</a></li>
+      <li>Css framework <a href="http://getbootstrap.com/">http://getbootstrap.com/</a></li>
+      <li>Jquery <a href="http://jquery.com">jquery.com</a></li>
+      <li>plugin pace <a href="http://github.hubspot.com/pace/">click here</a></li>
+      <li>plugin jquery.autofix_anything <a href="https://github.com/peachananr/autofix_anything">click here</a></li>
+      <li>plugin gmap3 <a href="http://gmap3.net/">click here</a></li>
+      <li>plugin magnific-popup <a href="http://dimsemenov.com/plugins/magnific-popup/">click here</a></li>
+      <li>plugin mixitup <a href="http://mixitup.io/" title="mixitup">click here</a> </li>
+      
+		</ul>
+
+    <hr>
+
+    <p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist.</p> 
+
+    <p class="append-bottom alt large"><strong>Best Regrads <br/>Yobi Bina Setiawan  </strong></p>
+    <p><a href="#toc">Go To Table of Contents</a></p>
+
+    <hr class="space">
+  </div><!-- end div .container -->
+  <script src="assets/css_js/shi_jquery.min.js "/>
+</body>
+</html>

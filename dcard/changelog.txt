@@ -1,0 +1,10 @@
+v1.0 initial release
+====================
+
+features & pages
+=> gmap3
+=> Galery filterable
+=> timeline
+=> custom progressbar
+=> Blog
+=> less file include
