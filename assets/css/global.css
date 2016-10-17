@@ -1,0 +1,11 @@
+body {
+    font-family: Courier New, Courier, monospace;
+    font-weight: bold;
+    background-color: #ffffff;
+}
+
+.header {
+  position: fixed; /* or absolute */
+  top: 50%;
+  left: 50%;
+}
